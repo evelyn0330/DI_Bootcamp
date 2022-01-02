@@ -1,0 +1,162 @@
+@media all and (min-width: 480px) and (max-width: 768px) {
+  body {
+    background-color: black;
+    color: #685e91;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 480px;
+    max-width: 768px;
+    height: 480px;
+  }
+
+  img {
+    float: left;
+    width: 30px;
+    height: 30px;
+  }
+
+  nav {
+    margin-bottom: 0;
+    height: 32px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    text-align: right;
+    font-size: 1rem;
+  }
+
+  nav li {
+    display: inline-block;
+  }
+
+  li a {
+    display: block;
+    color: #685e91;
+    text-align: center;
+    padding-top: 0.6rem;
+    padding-left: 1rem;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: rgb(34, 23, 23);
+  }
+
+  main {
+    background-image: url("./Images/wp4298106.jpg");
+    background-repeat: no-repeat;
+    background-size: 750px;
+    height: 360px;
+  }
+
+  h1 {
+    padding-top: 7rem;
+  }
+
+  #about,
+  .abilities {
+    font-size: 0.7rem;
+  }
+
+  footer {
+    height: 35px;
+    margin: 2px;
+    font-size: 0.6rem;
+  }
+
+  footer a {
+    text-decoration: none;
+    color: #685e91;
+  }
+
+  footer a:hover {
+    background-color: rgb(34, 23, 23);
+  }
+
+  .link {
+    margin: 0;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  body {
+    background-color: black;
+    color: #685e91;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  img {
+    float: left;
+    width: 55px;
+    height: 45px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    text-align: right;
+  }
+
+  nav li {
+    display: inline-block;
+  }
+
+  li a {
+    display: block;
+    color: #685e91;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: rgb(34, 23, 23);
+  }
+
+  main {
+    background-image: url("./Images/wp4298106.jpg");
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    width: 100%;
+    height: 650px;
+  }
+
+  h1 {
+    font-size: 7.5rem;
+    margin: 0;
+    padding-top: 15rem;
+  }
+
+  #about {
+    padding-left: 0.5rem;
+  }
+
+  .abilities {
+    padding-left: 0.5rem;
+  }
+
+  footer {
+    margin: 5px;
+    font-size: 0.8rem;
+  }
+
+  footer a {
+    text-decoration: none;
+    color: #685e91;
+  }
+
+  footer a:hover {
+    background-color: rgb(34, 23, 23);
+  }
+
+  .link {
+    margin: 0;
+  }
+}

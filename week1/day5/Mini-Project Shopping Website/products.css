@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-family: "Lobster", cursive;
+}
+
+.navicon {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background-color: #e8cad9;
+}
+
+nav {
+  height: 100px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e8cad9;
+  text-align: right;
+  height: 100px;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 3rem;
+  font-family: "Lobster", cursive;
+}
+
+li a {
+  display: block;
+  color: #a06595;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #fb758d;
+}
+
+img {
+  width: 245px;
+  height: 245px;
+  border-radius: 5px 5px 0 0;
+}
+
+h4 b {
+  margin: 0;
+  font-family: "Lobster", cursive;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+}
+
+.w3-green {
+  margin-top: 1.5rem;
+  margin-right: 10rem;
+}
+.w3-container2 {
+  margin-left: 6rem;
+  position: absolute;
+  margin-top: 8rem;
+  opacity: 0;
+}
+
+.w2-gray {
+  border-radius: 10%;
+}
+
+.w3-gray:hover {
+  border-radius: 10%;
+  transition: all 0.2s;
+}
+
+.w3-container2:hover {
+  opacity: 2;
+  border-radius: 10%;
+  transition: all 0.2s;
+}
+
+i:hover {
+  color: green;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 300px;
+  border-radius: 5px;
+  margin: 0.5rem 1.8rem;
+  float: left;
+  position: relative;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+  text-align: center;
+}
+
+.highlight {
+  padding-top: 2rem;
+}
+
+p {
+  color: green;
+  font-weight: 600;
+}
+
+del {
+  color: rgb(56, 54, 54);
+  font-size: 0.8rem;
+  font-weight: 200;
+}
+button {
+  border-radius: 5px;
+  border-style: none;
+}
+
+button:hover {
+  background-color: green;
+}
+
+footer {
+  margin-bottom: 0.2rem;
+  float: left;
+  width: 100%;
+  font-family: "Lobster", cursive;
+  background-color: #e8cad9;
+  color: #a06595;
+  font-size: smaller;
+}

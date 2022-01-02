@@ -1,0 +1,46 @@
+body {
+  background: #e7d5be;
+}
+
+h1 {
+  color: #793d48;
+}
+
+h2 {
+  color: #db9540;
+}
+
+.catSenses {
+  text-indent: 30px;
+  color: rgb(39, 38, 38);
+}
+
+.img {
+  text-align: center;
+}
+
+.kitty,
+.lion {
+  border: solid 10px #a3eaf1;
+  border-style: outset;
+}
+
+.media {
+  text-align: center;
+}
+
+.differences {
+  color: #a6511f;
+  text-align: center;
+  border: solid 3px #a6511f;
+}
+
+table {
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
