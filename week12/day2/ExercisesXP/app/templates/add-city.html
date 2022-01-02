@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+    <form method="POST">
+        {{ form.hidden_tag() }}
+
+        {{ form.cityname.label }}
+        {{ form.cityname(size=20) }}
+
+        {{ form.citycountry.label }}
+        {{ form.citycountry(size=20) }}
+
+        {{ form.numofinhabitants.label }}
+        {{ form.numofinhabitants(size=20) }}
+
+        {{ form.cityarea.label }}
+        {{ form.cityarea(size=20) }}
+
+        {{ form.submit() }}
+
+    </form>
+</body>
+</html>

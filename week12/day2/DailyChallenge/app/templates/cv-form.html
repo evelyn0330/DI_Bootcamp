@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CV</title>
+</head>
+<body>
+    <form method="POST">
+        {{ form.hidden_tag() }}
+
+        {{ form.firstname.label }}
+        {{ form.firstname(size=20) }}
+
+        {{ form.lastname.label }}
+        {{ form.lastname(size=20) }}
+
+        {{ form.age.label }}
+        {{ form.age(size=4) }}
+
+        {{ form.experience.label }}
+        {{ form.experience(size=32) }}
+
+        {{ form.submit() }}
+    </form>
+</body>
+</html>
