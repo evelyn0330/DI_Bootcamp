@@ -1,0 +1,129 @@
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-family: "Raleway";
+}
+
+header {
+  background-image: url(images/headerback.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+}
+
+h1 {
+  padding-top: 225px;
+  color: #ffc007;
+  font-weight: bolder;
+}
+h5 {
+  color: rgb(49, 47, 47);
+}
+
+h1,
+h5 {
+  text-align: left;
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
+  background-color: whitesmoke;
+  z-index: 1;
+}
+
+#overlay:hover {
+  display: none;
+}
+
+.row {
+  padding-left: 150px;
+}
+
+h2 {
+  text-align: center;
+  color: #ffc007;
+  padding: 100px 100px 50px 100px;
+}
+
+h3 {
+  text-align: center;
+  color: #ffc007;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row2,
+.row2 > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #ffc007;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #fdde82;
+}
+
+.btn.active {
+  background-color: #fabc03;
+  color: black;
+}
