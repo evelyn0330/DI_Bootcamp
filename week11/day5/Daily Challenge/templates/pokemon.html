@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>{{info['species']['name'].title()}}'s details </h1>
+<h3>Abilities:</h3>
+    <ul>
+        {% for item in info['abilities'] %}
+        <li>
+        {{ item['ability']['name'].title() }}
+    </li>
+        {% endfor %}
+    </ul>
+
+<h3>Moves:</h3>
+    <ul>
+        {% for item in info['moves'] %}
+        <li>
+        {{ item['move']['name'].title() }}
+    </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

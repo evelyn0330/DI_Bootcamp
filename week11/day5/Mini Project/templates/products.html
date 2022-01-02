@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Products</title>
+    <link rel="stylesheet"  href="{{ url_for('static',filename='img' )}}">
+</head>
+<body>
+<h2>Here is our list of products:</h2>
+    <uL>
+        {% for product in info %}
+        <li>
+            {{product['Name']}}- ID: {{product['ProductId']}}
+            <button><a href={{url_for('prod_details', product_id=product['ProductId'])}}>Check product</a></button>
+        </li>
+        {% endfor %}
+    </uL>
+</body>
+</html>
